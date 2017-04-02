@@ -1,17 +1,16 @@
-@import url(//db.onlinewebfonts.com/c/18cee2ce94c1271978d56d0eb4926e5a?family=UniversNextW01-Bold);
-html,
-body {
+/*Preserved @import query from original code: */
+/*@import url(//db.onlinewebfonts.com/c/18cee2ce94c1271978d56d0eb4926e5a?family=UniversNextW01-Bold);*/
+
+html, body {
   margin:0;
   cursor: url("images/middle.cur"), auto;
 }
-a,
-a:hover,
-a:visited {
-  text-decoration: none !important;
 
+a, a:hover, a:visited {
+  text-decoration: none !important;
 }
-.head
-{
+
+.head {
 padding: 20px;
   padding-top: 80px;
   color: black;
@@ -19,13 +18,10 @@ padding: 20px;
   font-family: arial;
   font-size: 50px;
   text-decoration: none;
-  
-
 }
 
-.head:hover
-{
-padding: 20px;
+.head:hover {
+  padding: 20px;
   padding-top: 80px;
   transition:0.5s;
   text-align: right;
@@ -35,20 +31,19 @@ padding: 20px;
 }
 
 .header{
-float: right;
-margin: 5rem 10rem 0rem 5rem;
-color: black;
-text-align: right;
-font-family: arial;
-font-size: 2rem;
-text-decoration: none;
-display: inline-block;
-/*position: fixed;*/
+  float: right;
+  margin: 5rem 10rem 0rem 5rem;
+  color: black;
+  text-align: right;
+  font-family: arial;
+  font-size: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  /*position: fixed;*/
 }
 
-.hpadding
-{
-margin: 2rem 0rem 0rem 0rem;
+.hpadding {
+  margin: 2rem 0rem 0rem 0rem;
 }
 
 
@@ -71,8 +66,6 @@ margin: 2rem 0rem 0rem 0rem;
   text-decoration: none;
   display: inline-block; 
   color: #222;
-
-
 }
 
 .sidebar-link:hover{
@@ -81,47 +74,42 @@ margin: 2rem 0rem 0rem 0rem;
   font-size: 1.75rem;
 }
 
-.selected
-{
-color:#A1C0FF;
+.selected {
+  color:#A1C0FF;
 }
 
-.photo
-{
-width: 100%;
-height: 60vh;
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-max-width: 32rem;
-margin: 30px auto;
+.photo{
+  width: 100%;
+  height: 60vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 32rem;
+  margin: 30px auto;
 }
 
-.photobar
-{
+.photobar {
     display: inline-block;
     float: left;
     position: fixed;
     text-align: left;
     margin: 20rem 0rem 0rem 5rem;
     width: 15rem;
-
 }
 
-.homephotos
-{
-width: 200px;
-height:auto;
-margin-right:10%;
-margin-left:10%;
-}
+.homephotos {
+  width: 200px;
+  height:auto;
+  margin-right:10%;
+  margin-left:10%;
+ }
     
 .body{
-margin: 0;
-padding: 10px;
-font-family: arial;
-background: #c9fff2;
-  }
+  margin: 0;
+  padding: 10px;
+  font-family: arial;
+  background: #c9fff2;
+}
 
 .a{
     text-decoration: none;
@@ -134,7 +122,6 @@ background: #c9fff2;
   font: arial;
   font-size: 400;
   color: 233,60,50;
-
 }
 
 .right{
@@ -145,6 +132,7 @@ background: #c9fff2;
   float:right;
   width: 50%;
 }
+
 .padding{
   padding-top: 80px;
   margin-left: 400px;
@@ -168,6 +156,27 @@ background: #c9fff2;
   float: left;
   position: fixed;
 }
+
+@media (max-width: 899px) {
+  #desktop {
+    display: none;
+  }
+  .sidebar-link{
+    font-size: 48pt;
+  }
+  .gif{
+    padding-left: 5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+}
+
+@media (min-width: 900px) {
+  #mobile {
+    display: none;
+  }
+}
+
 
 /*nav ul{
     background-color: #c9fff2;
